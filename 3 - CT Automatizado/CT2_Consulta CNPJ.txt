@@ -1,0 +1,8 @@
+#Cenário Contulta PF
+
+###CT1_Consulta CPF
+
+Dado que necessite consultar um CPF
+Quando seleciono na tela de consulta a opção PF
+E Digito o CPF 123.456.789-23
+Então a aplicação retorna msg "CPF validado com sucesso"
